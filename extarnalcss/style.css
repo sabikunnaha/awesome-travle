@@ -11,6 +11,7 @@
     font-size: 2.2rem;
     font-style: normal;
     font-weight: 800;
+    margin: 20px 0px;
 }
 
 .section-description {
@@ -18,6 +19,14 @@
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
+}
+
+.contry-name {
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
 }
 
 /* Nav rileated style */
@@ -162,6 +171,107 @@ li {
 .popular-tour-img img {
     width: 100%;
 
+}
+
+/* Destination part style */
+.destination-contant p {
+    text-align: center;
+    padding: 0px 80px;
+}
+
+.contry-info-container {
+    /* display: flex; */
+}
+
+.contry-info-1 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+.contry-1 {
+    background-image: url(../Images/Rectangle\ 5.png);
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    padding-top: 100px;
+    border-radius: 16px;
+    /* background-size: 120%; */
+}
+
+.contry-2 {
+    background-image: url(../Images/Rectangle\ 8.png);
+    /* background-size: 100%; */
+    border-radius: 16px;
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.contry-info-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.contry-3 {
+    background-image: url(../Images/Rectangle\ 6.png);
+    width: 300px;
+    height: 180px;
+    border-radius: 16px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.contry-4 {
+    background-image: url(../Images/Rectangle\ 7.png);
+    width: 400px;
+    height: 180px;
+    border-radius: 16px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.contry-5 {
+    background-image: url(../Images/Rectangle\ 9.png);
+    width: 280px;
+    height: 180px;
+    border-radius: 16px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+/* contry info 3rd .... */
+.contry-info-3 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.contry-6 {
+    background-image: url(../Images/Rectangle\ 11.png);
+    width: 400px;
+    height: 200px;
+    border-radius: 16px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.contry-7 {
+    background-image: url(../Images/Rectangle\ 10.png);
+    width: 600px;
+    height: 200px;
+    border-radius: 16px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.contry {
+    border: 2px solid tan;
 }
 
 /* Responsibe style */
