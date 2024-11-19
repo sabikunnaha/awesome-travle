@@ -49,7 +49,6 @@ header {
 
 .nav-title-container p {
     color: #131318;
-    font-family: Mulish;
     font-size: 2rem;
     font-style: normal;
     font-weight: 800;
@@ -391,12 +390,23 @@ footer>p {
     gap: 15px;
     align-items: center;
     justify-content: center;
+    padding-top: 20px;
+}
+
+.footer-title-container p {
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 800;
 }
 
 .footer-img {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.all-right {
+    padding-bottom: 80px;
 }
 
 /* Responsibe style */
