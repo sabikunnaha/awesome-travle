@@ -298,7 +298,6 @@ li {
     width: 500px;
     background: rgba(41, 206, 246, 0.05);
     border-radius: 16px;
-
 }
 
 .card-title {
@@ -313,6 +312,91 @@ li {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
+}
+
+/* deal add discount part style */
+.discount-img-container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.discount-img img {
+    width: 100%;
+    /* background-image: url(../Images/Group\ 39.png); */
+}
+
+.dicount-card-container {
+    width: 450px;
+    padding: 15px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    position: absolute;
+    top: 3270px;
+    left: 600px;
+}
+
+.dicount-card-container-1 {
+    position: absolute;
+    top: 3700px;
+    left: 180px;
+}
+
+.dicount-card-container-2 {
+    position: absolute;
+    top: 4120px;
+    left: 600px;
+}
+
+.card-icon {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.card-icon img {
+    width: 24px;
+    /* height: 24px; */
+}
+
+.dicount-card-title {
+    color: #131318;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 800;
+    margin: 0px 20px;
+}
+
+.card-price {
+    color: #FF5400;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    margin: 20px 10px;
+}
+
+/* Footer style start  */
+footer {
+    background: rgba(19, 19, 24, 0.05);
+}
+
+footer>p {
+    padding: 0rem 9rem;
+    text-align: center;
+}
+
+.footer-title-container {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Responsibe style */
@@ -338,6 +422,10 @@ li {
     .card-items,
     .card-item {
         flex-direction: column;
+    }
+
+    .nav-item {
+        gap: 5px;
     }
 
     .section-title {
@@ -395,11 +483,22 @@ li {
     /* popular tour part responsive */
     .popular-tour-contant {
         width: 100%;
+        margin-left: 15px;
     }
 
     .popular-tour-img img {
         width: 100%;
     }
+
+    footer>p {
+        padding: 15px;
+    }
+
+    /* Deal and discount part style */
+    .dicount-card-container {
+        display: none;
+    }
+
 
 }
 
@@ -429,4 +528,5 @@ li {
     .popular-tour-contant {
         width: 100%;
     }
+
 }
